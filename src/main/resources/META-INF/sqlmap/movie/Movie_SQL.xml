@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="movie">
+
+    <select id="login" parameterType="hashmap" resultType="hashmap">
+        select *
+          from user_info a
+         where user_id = #{id}
+           and user_pw = SHA2(#{pw}, 512);
+    </select>
+
+    <insert id="signIn" parameterType="hashmap">
+        insert into user_info
+                    (user_id, user_pw, created_datetime, updated_datetime, deleted_datetime, fail_count, name)
+             values (#{id}, SHA2(#{pw}, 512), now(), NULL, NULL, 0, #{name});
+    </insert>
+
+    <select id="genreList" parameterType="hashmap" resultType="hashmap">
+        select *
+          from genre;
+    </select>
+
+    <select id="movieList" parameterType="hashmap" resultType="hashmap">
+        select a.*
+             , GROUP_CONCAT(c.genre_nm) as genre
+          from movie a
+          left join movie_genre b on (a.movie_id = b.movie_id)
+          left join genre       c on (b.genre_id = c.genre_id)
+         where 1=1
+        <if test="filter != null and filter.size() > 0">
+           and b.genre_id IN
+            <foreach item="item" index="index" collection="filter" open="(" separator="," close=")">
+               #{item}
+            </foreach>
+        </if>
+         group by a.movie_id;
+    </select>
+
+    <insert id="addRating" parameterType="hashmap">
+        insert into movie_rathing
+                    (movie_id, user_id, rating)
+             values (${movie_id}, #{user_id}, ${rating})
+       on duplicate key update
+                rating = ${rating}
+    </insert>
+
+    <select id="getRating" parameterType="hashmap" resultType="hashmap">
+        select a.*
+             , IFNULL(ROUND(AVG(b.rating), 1), '-') as rating
+          from movie a
+          left join movie_rathing b on (a.movie_id = b.movie_id)
+         group by a.movie_id
+    </select>
+
+</mapper>

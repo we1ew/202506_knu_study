@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2c58cb6-3e18-4dae-9731-2e327c8b5cfe" name="Changes" comment="20241121_Update">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring_basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/sqlmap/movie/Movie_SQL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/sqlmap/movie/Movie_SQL.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/seeya/movie/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seeya/movie/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/seeya/movie/service/dao/MovieDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seeya/movie/service/dao/MovieDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/seeya/movie/web/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/seeya/movie/web/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/message/message-common.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/message/message-common_en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/message/message-common_ko.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-aspect.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-common.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-datasource.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-properties.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-transaction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/spring/context-validator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/sqlmap/sample/Sample_SQL.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/sqlmap/sql-mapper-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/validator/template/guide/validator-template-notification.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/META-INF/validator/validator-rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/common/CommandMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/filter/CrossScriptingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/filter/RequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/logger/LoggerAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/logger/LoggerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/resolver/CustomMapArgumentResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/service/CommonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/service/dao/CommonDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/util/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/util/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/common/web/CommonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/community/service/CommunityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/community/service/dao/CommunityDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/community/web/CommunityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/core/dao/AbstractDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/core/exception/CommonExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/excel/util/ExcelCellRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/excel/util/ExcelFileType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/excel/util/ExcelReadOption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/excel/util/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/sample/service/SampleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/sample/service/dao/SampleDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/sample/web/SampleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/classes/seeya/schedule/service/comnonScheduleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/config/springmvc/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/config/validator/validator-rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/config/validator/validator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample5.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/Sample/sample6.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/jsp/err_page.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/HIRA_CORE-5.1.47-jdk7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/antlr-3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/antlr-runtime-3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/apache-taglibs-standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/aspectjrt-1.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/aspectjtools-1.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/aspectjweaver-1.7.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-codec-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-collections-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-collections4-4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-compress-1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-digester-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-digester-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-exec-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-fileupload-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-httpclient-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-imaging-1.0-20240107.195855-239.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-imaging-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-io-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-jexl-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-lang-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-lang3-3.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-logging-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-validator-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-validator-1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/commons-vfs2-2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/curvesapi-1.03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.cmmn-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.excel-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.filehandling-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.idgnr-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.logging-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.property-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.security-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.fdl.string-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.psl.dataaccess-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/egovframework.rte.ptl.mvc-3.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/hsqldb-2.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/ibatis-sqlmap-2.3.4.726.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/itext-pdfa-5.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/itext-xtra-5.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/itextpdf-5.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jackson-core-2.6.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jackson-databind-2.6.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jcl-over-slf4j-1.7.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jdom-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jmxtools-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jsch-0.1.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/junit-4.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jxls-core-1.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jxls-core-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jxls-reader-1.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/jxls-reader-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-api-2.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-core-2.17.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-core-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-over-slf4j-1.7.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-slf4j-impl-2.12.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4j-slf4j-impl-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/log4jdbc-remix-0.2.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/mariadb-java-client-2.7.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/mybatis-3.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-3.10-FINAL.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-contrib-3.7-beta3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-ooxml-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-ooxml-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-ooxml-schemas-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-scratchpad-3.10-FINAL.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/poi-scratchpad-3.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/quartz-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/queryapi-420.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/sanselan-0.97-incubator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/slf4j-api-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/slf4j-api-1.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/slf4j-simple-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-aop-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-beans-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-context-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-context-support-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-core-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-expression-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-jdbc-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-modules-validation-0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-orm-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-oxm-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-security-acl-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-security-config-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-security-core-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-security-taglibs-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-security-web-3.2.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-tx-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-web-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-webmvc-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/spring-websocket-4.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/stringtemplate-3.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/taglibs-standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/tibero-jdbc-6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/xbean-classloader-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/xmlbeans-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/lib/xmlworker-5.5.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_common/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_common/error404.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_common/error500.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_common/include.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_include/header.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_include/sample/footer.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_include/sample/header.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_include/sample/menu.jspf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/circle-progress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/crossbrowserjs/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/crossbrowserjs/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/crossbrowserjs/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/html2canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/jQueryRotateCompressed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/jquery-2.1.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/submit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_js/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-calendar/css/bootstrap_calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-calendar/js/bootstrap_calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-ipaddress/bootstrap-ipaddress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-ipaddress/bootstrap-ipaddress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-select/bootstrap-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-select/bootstrap-select.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-select/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-select/bootstrap-select.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-select/bootstrap-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-switch/bootstrap-switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap-switch/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/Chart.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/Chart.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/Chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/chart-js/chart-js.demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/checkbox_radio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/checkbox/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/datapicker/datepicker3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/ekko-lightbox/ekko-lightbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/ekko-lightbox/ekko-lightbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/css/jquery.gritter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/images/gritter-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/images/gritter-long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/images/gritter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/images/ie-spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/images/trees.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/gritter/js/jquery.gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/iCheck/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/iCheck/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/iCheck/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jasny/jasny-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jasny/jasny-bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/apps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/chart-flot.demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/API.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/FAQ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/NEWS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/PLUGINS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.colorhelpers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.crosshair.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.errorbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.fillbetween.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.navigate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.symbol.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.threshold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-flot/plugin/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/jquery-ui-radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/jquery-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery-ui/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery/dist/jquery-migrate.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery/jquery-1.9.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/jquery/jquery-migrate-1.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/morris/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/morris/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/morris/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/nestable/jquery.nestable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/nestable/jquery.nestable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/nestable/jquery.nestable2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/nestable/jquery.nestable2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/pace/pace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/slimscroll/jquery.slimscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/font/summernote.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/font/summernote.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/lang/summernote-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/databasic/summernote-ext-databasic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/databasic/summernote-ext-databasic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/databasic/summernote-ext-databasic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/databasic/summernote-ext-databasic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/hello/summernote-ext-hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/hello/summernote-ext-hello.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/specialchars/summernote-ext-specialchars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/plugin/specialchars/summernote-ext-specialchars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/summernote.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/switchery/switchery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/_plugins/switchery/switchery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring_basic/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2os0KoHtHmzUJulCQGWSkZyGpfv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/00인수인계/0001과제/01_TTT/2024cms"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git3\20241114KnuHistory\src\main\webapp\_js\Movie" />
+      <recent name="D:\git\20241114KnuHistory\src\main\webapp\_js\Movie" />
+      <recent name="D:\git\20241114KnuHistory\src\main\webapp\_css\Movie" />
+      <recent name="D:\git\20241114KnuHistory\src\main\webapp\WEB-INF\jsp\Movie" />
+      <recent name="D:\git\20241114KnuHistory\src\main\webapp\_js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="seeya.movie.web" />
+      <recent name="seeya.study.web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.spring_basic [tomcat7:run]">
+    <configuration name="spring_basic [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/7.0.79 (2)" />
+          <option name="path" value="$PROJECT_DIR$/../../apache-tomcat-7.0.79/apache-tomcat-7.0.79" />
+          <option name="version" value="7.0.79.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="spring_basic" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.spring_basic [tomcat7:run]" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2c58cb6-3e18-4dae-9731-2e327c8b5cfe" name="Changes" comment="" />
+      <created>1731642922737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731642922737</updated>
+    </task>
+    <task id="LOCAL-00001" summary="20241121_Update">
+      <created>1732179968092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732179968092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20241121_Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="20241121_Update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/seeya/sample/web/SampleController.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
