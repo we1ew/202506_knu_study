@@ -50,6 +50,7 @@
         <li><a href="/sample/sample4.do?foo=bar">파라미터 테스트</a></li>
         <li><a href="/sample/sample5.do">세션 테스트</a></li>
         <li><a href="/sample/sample6.do">DB 테스트</a></li>
+        <li><a href="/Movie/main.do">(예시) 영화 평점 사이트</a></li>
     </ul>
 </div>
 
